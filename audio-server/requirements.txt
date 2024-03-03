@@ -1,0 +1,4 @@
+paho-mqtt
+pyttsx3
+python-vlc
+requests

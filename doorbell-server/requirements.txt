@@ -1,0 +1,6 @@
+pygame
+paho-mqtt
+gpiozero
+python-telegram-bot
+Flask
+picamera

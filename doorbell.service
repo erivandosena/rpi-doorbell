@@ -1,0 +1,12 @@
+[Unit]
+Description=Docker Doorbell Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/docker run --rm --privileged --name=doorbell-app doorbell
+ExecStop=/usr/bin/docker stop doorbell-app
+
+[Install]
+WantedBy=multi-user.target
